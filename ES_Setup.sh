@@ -4,7 +4,7 @@ echo "$STR"
 echo -e "\033[32mPlease type the console short name from the following list. Followed by [ENTER]\n\033[0m
 3do | amiga | amstradcpc | apple2 | art | atari2600 | atari5200 \n
 atari7800 | atari800 | atarijaguar | atarijaguarcd | atarist | atarifalcon\n
-atarixe | c64 | colecovision | amstradcpc | fba | gamegear | gb | gba | gbc \n
+atarixe | c64 | colecovision | dreamcast | amstradcpc | fba | gamegear | gb | gba | gbc \n
 gc | intellivision | macintosh | mame | mastersystem | megadrive | n64 \n
 neogeo | nes | ngp | ngpc | pc | pcengine | ports | psx | scummvm | sega32x \n
 segacd | snes | zmachine | zxspectrum\n\n\033[32mThese are case sensitive."
@@ -45,6 +45,19 @@ case $core in
 		ext=".cue .cbn .chd .img .iso .m3u .mdf .pbp .toc .z .znx"
 		console_name="Sony Playstation"
 		core_name="beetle_psx_libretro.so" 
+		break
+		;;
+		.cdi .chd .gdi
+	dreamcast)
+		ext=".cdi .chd .gdi"
+		console_name="Sega Dreamcast"
+		core_name="reicast_libretro.so" 
+		break
+		;;
+	mame)
+		ext=".zip"
+		console_name="Multi Arcade Machine Emulator"
+		core_name="mame_libretro.so" 
 		break
 		;;
 	*)
