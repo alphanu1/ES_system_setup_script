@@ -11,7 +11,7 @@ atarixe | c64 | colecovision | dreamcast | amstradcpc | fba | gamegear | gb | gb
 gc | genesis | intellivision | macintosh | mame | mastersystem | megadrive | n64 \n
 neogeo | nes | ngp | ngpc | pc | pcengine | ports | psx | scummvm | sega32x \n
 segacd | snes | zmachine | zxspectrum
-\n\n\033[32mThese are case sensitive."
+\n\n\033[32mThese are case sensitive.\033[0m"
 
 	echo "$STR"
 	read core
