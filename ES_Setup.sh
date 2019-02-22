@@ -1,7 +1,13 @@
 #!/bin/bash
 
 echo "$STR"
-echo -e "\033[32mPlease type the console short name e.g snes, nes, pce or genesis. Please use all lowercase. Followed by [ENTER]\033[0m"
+echo -e "\033[32mPlease type the console short name\n\n
+3do | amiga | amstradcpc | apple2 | art | atari2600 | atari5200 \n
+atari7800 | atari800 | atarijaguar | atarijaguarcd | atarist | atarifalcon\n
+atarixe | c64 | colecovision | amstradcpc | fba | gamegear | gb | gba | gbc \n
+gc | intellivision | macintosh | mame | mastersystem | megadrive | n64 \n
+neogeo | nes | ngp | ngpc | pc | pcengine | ports | psx | scummvm | sega32x \n
+segacd | snes | zmachine | zxspectrum. \n\n Please use all lowercase. Followed by [ENTER]\033[0m"
 echo "$STR"
 read core
 
