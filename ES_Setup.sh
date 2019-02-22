@@ -14,7 +14,7 @@ case $core in
 	nes)
 		ext=".7z .fds .nes .zip"
 		console_name="Nintendo Entertainment System"
-		core_name="fcum_libretro.so" 
+		core_name="fceum_libretro.so" 
 		break
 		;;
 	snes)
@@ -33,6 +33,12 @@ case $core in
 		ext="7z .bin .gen .md .sg .smd .zip"
 		console_name="Sega Genesis"
 		core_name="genesis_plus_gx_libretro.so" 
+		break
+		;;
+	psx)
+		ext=".cue .cbn .chd .img .iso .m3u .mdf .pbp .toc .z .znx"
+		console_name="Sony Playstation"
+		core_name="beetle_psx_libretro.so" 
 		break
 		;;
 	*)
