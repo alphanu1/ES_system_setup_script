@@ -14,7 +14,7 @@ echo "$STR"
 
 case $core in 
 	nes)
-		ext=".fc .zip"
+		ext=".7z .fds .nes .zip"
 		console_name="Nintendo"
 		core_name="fcum_libretro.so" 
 		;;
@@ -24,7 +24,7 @@ case $core in
 		core_name="bsnes_balanced_libretro.so" 
 		;;
 	genesis)
-		ext=".smc .sfc .SMC .SFC .zip"
+		ext="7z .bin .gen .md .sg .smd .zip"
 		console_name="Sega Genesis"
 		core_name="genesis_plus_gx_libretro.so" 
 		;;
