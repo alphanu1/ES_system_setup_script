@@ -17,7 +17,7 @@ case $core in
 		core_name="fcum_libretro.so" 
 		;;
 	snes)
-		ext=".smc .sfc .SMC .SFC .zip"
+		ext=".7z .bin .bs .fig .mgd .sfc .smc .swc .zip"
 		console_name="Super Nintendo Entertainment System"
 		core_name="bsnes_balanced_libretro.so" 
 		;;
