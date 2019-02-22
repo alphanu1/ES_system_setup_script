@@ -15,15 +15,20 @@ echo "$STR"
 case $core in 
 	nes)
 		ext=".7z .fds .nes .zip"
-		console_name="Nintendo"
+		console_name="Nintendo Entertainment Ssytem"
 		core_name="fcum_libretro.so" 
 		;;
 	snes)
 		ext=".smc .sfc .SMC .SFC .zip"
-		console_name="Super Nintendo"
+		console_name="Super Nintendo Entertainment Ssytem"
 		core_name="bsnes_balanced_libretro.so" 
 		;;
 	genesis)
+		ext="7z .bin .gen .md .sg .smd .zip"
+		console_name="Sega Genesis"
+		core_name="genesis_plus_gx_libretro.so" 
+		;;
+	megadrive)
 		ext="7z .bin .gen .md .sg .smd .zip"
 		console_name="Sega Genesis"
 		core_name="genesis_plus_gx_libretro.so" 
