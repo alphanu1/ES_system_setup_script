@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "$STR"
-echo -e "\033[32mPlease type the console short name from the following list. Followed by [ENTER]\n\n\033[0m
+echo -e "\033[32mPlease type the console short name from the following list. Followed by [ENTER]\n\033[0m
 3do | amiga | amstradcpc | apple2 | art | atari2600 | atari5200 \n
 atari7800 | atari800 | atarijaguar | atarijaguarcd | atarist | atarifalcon\n
 atarixe | c64 | colecovision | amstradcpc | fba | gamegear | gb | gba | gbc \n
