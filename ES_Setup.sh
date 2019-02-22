@@ -40,7 +40,7 @@ xmls="\t<system>\n\t\t<name>"$core"</name>\n\t\t<fullname>"$console_name"</fulln
 echo "$STR"
 echo -e $xmls
 echo "$STR"
-echo -e "\033[32Please Press [ENTER] confirm the system to add or CTRL+c to cancel.\033[0m"
+echo -e "\033[32Please Press [ENTER] to confirm the new system to add or [ctrl+c] to cancel.\033[0m"
 read -p ""
 echo "$STR"
 
