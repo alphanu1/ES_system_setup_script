@@ -26,43 +26,36 @@ segacd | snes | zmachine | zxspectrum
 			ext=".7z .fds .nes .zip"
 			console_name="Nintendo Entertainment System"
 			core_name="fceum_libretro.so" 
-			break
 			;;
 		snes)
 			ext=".7z .bin .bs .fig .mgd .sfc .smc .swc .zip"
 			console_name="Super Nintendo Entertainment System"
 			core_name="bsnes_balanced_libretro.so" 
-			break
 			;;
 		genesis)
 			ext="7z .bin .gen .md .sg .smd .zip"
 			console_name="Sega Genesis"
 			core_name="genesis_plus_gx_libretro.so" 
-			break
 			;;
 		megadrive)
 			ext="7z .bin .gen .md .sg .smd .zip"
 			console_name="Sega Genesis"
 			core_name="genesis_plus_gx_libretro.so" 
-			break
 			;;
 		psx)
 			ext=".cue .cbn .chd .img .iso .m3u .mdf .pbp .toc .z .znx"
 			console_name="Sony Playstation"
 			core_name="beetle_psx_libretro.so" 
-			break
 			;;
 		dreamcast)
 			ext=".cdi .chd .gdi"
 			console_name="Sega Dreamcast"
 			core_name="reicast_libretro.so" 
-			break
 			;;
 		mame)
 			ext=".zip"
 			console_name="Multi Arcade Machine Emulator"
 			core_name="mame_libretro.so" 
-			break
 			;;
 		*)
 	esac
