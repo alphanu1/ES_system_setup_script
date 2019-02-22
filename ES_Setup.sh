@@ -1,7 +1,5 @@
 #!/bin/bash
 
-ext=""
-
 echo "$STR"
 echo -e "\033[32mPlease type the console short name e.g snes, nes, pce or genesis. Please use all lowercase. Followed by [ENTER]\033[0m"
 echo "$STR"
@@ -15,12 +13,12 @@ echo "$STR"
 case $core in 
 	nes)
 		ext=".7z .fds .nes .zip"
-		console_name="Nintendo Entertainment Ssytem"
+		console_name="Nintendo Entertainment System"
 		core_name="fcum_libretro.so" 
 		;;
 	snes)
 		ext=".smc .sfc .SMC .SFC .zip"
-		console_name="Super Nintendo Entertainment Ssytem"
+		console_name="Super Nintendo Entertainment System"
 		core_name="bsnes_balanced_libretro.so" 
 		;;
 	genesis)
