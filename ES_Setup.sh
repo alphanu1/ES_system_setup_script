@@ -24,7 +24,7 @@ case $core in
 		core_name="bsnes_balanced_libretro.so" 
 		;;
 	genesis)
-	    ext=".smc .sfc .SMC .SFC .zip"
+		ext=".smc .sfc .SMC .SFC .zip"
 		console_name="Sega Genesis"
 		core_name="genesis_plus_gx_libretro.so" 
 		;;
