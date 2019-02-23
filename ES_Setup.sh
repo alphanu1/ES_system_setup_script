@@ -60,7 +60,7 @@ segacd | snes | zmachine | zxspectrum
 		*)
 	esac
 		
-	xmls="\t<system>\n\t\t<name>"$core"</name>\n\t\t<fullname>"$console_name"</fullname>\n\t\t<path>"$rom_path"</path>\n\t\t<extension>"$ext"</extension>\n\t\t<command>retroarch -L ~/.congif/retroatch/cores/"$core_name" %ROM%</command>\n\t\t<platform>"$core"</platform>\n\t\t<theme>"$core"</theme>\n\t</system>\n</systemList>"
+	xmls="\t<system>\n\t\t<name>"$core"</name>\n\t\t<fullname>"$console_name"</fullname>\n\t\t<path>"$rom_path"</path>\n\t\t<extension>"$ext"</extension>\n\t\t<command>retroarch -L ~/.config/retroarch/cores/"$core_name" %ROM%</command>\n\t\t<platform>"$core"</platform>\n\t\t<theme>"$core"</theme>\n\t</system>\n</systemList>"
 	echo "$STR"
 	echo -e $xmls
 	echo "$STR"
